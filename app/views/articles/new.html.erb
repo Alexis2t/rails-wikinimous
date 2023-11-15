@@ -1,0 +1,7 @@
+<%= render "navbar" %>
+<div class="container">
+  <h1 class="text-center mb-4 mt-3">Create an article</h1>
+  <%= render "form", article: @article, class:"mb-5" %>
+
+  <%= link_to "Get back to articles", articles_path, class:'mt-5'%>
+</div>
